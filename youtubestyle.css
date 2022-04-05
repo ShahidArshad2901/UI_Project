@@ -1,0 +1,479 @@
+/*Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@100&family=Nunito:wght@200&family=Padauk&family=Send+Flowers&family=Shadows+Into+Light&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Snigle-font: "Montserrat", cursive;
+  --Rubik: "Nunito", cursive;
+  --Patua: "Padauk", cursive;
+  --Lobster: "Abel", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom,
+      #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0)
+}
+
+.fa-solid {
+  color: #0096FF;
+  padding: 3vmin 2vmin 5vmin 5vmin;
+  height: 2vmin;
+  width: 2vmin;
+}
+
+@media only screen and (max-width: 850px) {
+  .nav {
+    display: none;
+  }
+
+  .nav {
+    border-bottom: 1px solid grey;
+    margin-bottom: 0vmin;
+  }
+}
+
+.logos {
+  padding: 1.5vmin 2vmin 1.5vmin 120vmin;
+  color: blue;
+}
+
+.navbar-brand1 {
+  border-right: 1px solid;
+  color: grey;
+  padding-right: 5vmin;
+}
+
+.navbar-brand2 {
+  padding: 2vmin 2vmin 1.5vmin 3vmin;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.header a {
+  font-family: var(--Snigle-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header {
+  background-image: url('home-banner-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .nav {
+  border: 1px solid;
+}
+
+header .nav .nav-item {
+  border: 1px solid;
+}
+
+header .nav .nav-item1 .nav-link {
+  color: black;
+}
+
+header .nav-item:last-child {
+  padding-right: 5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navebar-brand {
+  padding-left: 8em;
+}
+
+header .nav-link:hover {
+  color: black
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-4 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  font-family: var(--Rubik);
+  color: white;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-4 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-4 h1 {
+  font-size: 8vmin;
+  padding: 0.1em 0em
+}
+
+header .container .col-md-4 p {
+  padding: 1vmin 5vmin;
+}
+
+header .container .col-md-4 button {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  header .container .col-md-4 button {
+    display: inline;
+
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+
+    color: white;
+    font-size: 3vmin;
+    margin-top: 2em;
+    border: none;
+
+  }
+}
+
+
+/** Section1 **/
+.section-1 {
+  background-image: url('xn3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0vmin 0;
+  background-color: skyblue;
+  background-blend-mode: multiply;
+}
+
+
+.section-1 .panel {
+  position: center;
+  background: white;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5vmin 5vmin 5vmin 5vmin;
+  box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
+  font-family: var(--Rubik);
+  margin: 15vmin 2vmin 15vmin 2vmin;
+
+}
+
+.section-1 .panel1 {
+  background: white;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5vmin 5vmin 5vmin 5vmin;
+  box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
+  font-family: var(--Rubik);
+  margin: 15vmin 2vmin 15vmin 2vmin;
+
+}
+
+@media only screen and (max-width: 850px) {
+  .section-1 .panel1 {
+    display: none;
+  }
+
+  .section-1 .panel {
+    position: center;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
+    font-family: var(--Rubik);
+    margin: 15vmin 2vmin 15vmin 2vmin;
+    min-width: 500px
+  }
+}
+
+
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.5em;
+  color: rgba(0 0 0 0.5);
+}
+
+.section-4 .card {
+  border: none !important;
+  padding: 5vmin;
+  min-width: 60vmin
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.userimg {
+  float: left;
+  margin: 1vmin;
+  border-radius: 20vmin;
+  padding-right: 5vmin;
+  padding-bottom: 4vmin;
+
+}
+
+/** Section2 **/
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url('home-banner-bg.png');
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  background: rgba(0 0 0 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+
+}
+
+.cover .content>h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content>p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(255 0 0 0.349);
+
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.purchase>h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Snigle-font);
+}
+
+.purchase>p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 35rem;
+  margin: 3vmin;
+  font-family: var(--Snigle-font);
+}
+
+
+
+.card-img-top {
+  margin-bottom: 7vmin;
+}
+
+
+.section {
+  display: none
+}
+
+@media screen and (max-width: 850px) {
+  .section {
+    display: flex;
+    color: white;
+    font-family: var(--Snigle-font);
+    padding-top: 15vmin;
+    padding-bottom: 10vmin
+  }
+}
+
+/**
+.box {
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.815);
+  color: white;
+  font-family: var(--Snigle-font);
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+  margin-bottom: 10vmin;
+  margin-top: 10vmin;
+}**/
+
+
+.circle {
+  height: 150px;
+  width: 150px;
+  margin: 15vmin auto 5vmin auto;
+  background-color: skyblue;
+  border-radius: 20vmin;
+}
+
+.btn2 {
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: white;
+  margin: 5vmin 1vmin 5vmin 1vmin;
+}
+
+
+
+
+.purchase .card .card-text {
+  text-align: left;
+  padding: 2vmin 6vmin 1vmin 6vmin
+}
+
+.purchase .card .card-text1 {
+  text-align: left;
+  padding: 1vmin 6vmin 3vmin 6vmin;
+  font-size: 3vmin;
+}
+
+.section-4 .purchase .btns {
+  padding: -5vmin 5vmin 1vmin 1vmin;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.section-4 .purchase {
+  font-family: var(--Snigle-font);
+}
+
+.section-4 .purchase .btns>a {
+  padding: 5vmin 1vmin 5vmin 3vmin;
+  color: grey;
+}
+
+.section-4 .purchase .btns>a.ex1:hover,
+a.ex1:active {
+  color: skyblue;
+}
+
+.section-4 .purchase .headings {
+  margin: -6vmin 5vmin 3vmin 4vmin;
+}
+
+.section-4 .purchase .para1 {
+  margin: 6vmin 5vmin 3vmin 4vmin;
+}
+
+
+footer {
+  background-color: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 5vmin 5vmin;
+}
+
+footer .row {
+  color: grey;
+  padding-bottom: 10vmin;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 150px;
+}
+
+footer input {
+  border: none !important;
+  min-width: 60vmin;
+}
+
+footer input::placeholder {
+  color: grey;
+}
+
+.footer-col {
+  margin: 10vmin 5vmin 5vmin 5vmin;
+}
+
+
+
+.button1 {
+  border-radius: 20px;
+  background-color: #89CFF0;
+  padding: 0.9vmin 3vmin;
+  color: white;
+  font-size: 2vmin;
+  border: none;
+
+}
+
+.form-control {
+  border-radius: 20px;
+  width: 40vmin;
+  padding: 0.9vmin 3vmin;
+
+}
+
+.image {
+  margin: 0.5vmin 0.5vmin;
+}
+
+.fa-regular {
+  color: skyblue;
+}
+
+
+.logo1>a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+
+.footer-col>a {
+  font-family: var(--Lobster);
+  color: grey;
+}
