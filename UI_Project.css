@@ -165,18 +165,19 @@ header .container .col-md-4 button {
   background-image: url('xn3.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0vmin 0;
+  padding-left: auto;
+  padding-right: auto;
   background-color: skyblue;
   background-blend-mode: multiply;
+
 }
 
 
 .section-1 .panel {
-  position: center;
   background: white;
   border-radius: 1px;
   text-align: left;
-  padding: 5vmin 5vmin 5vmin 5vmin;
+  padding: 3vmin 2vmin 5vmin 2vmin;
   box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
   font-family: var(--Rubik);
   margin: 15vmin 2vmin 15vmin 2vmin;
@@ -187,14 +188,27 @@ header .container .col-md-4 button {
   background: white;
   border-radius: 1px;
   text-align: left;
-  padding: 5vmin 5vmin 5vmin 5vmin;
+  padding: 3vmin 2vmin 5vmin 2vmin;
   box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
   font-family: var(--Rubik);
   margin: 15vmin 2vmin 15vmin 2vmin;
 
 }
 
-@media only screen and (max-width: 850px) {
+.userimg {
+  height: 10vmin;
+  width: 10vmin;
+}
+
+.section-1 .panel>h6 {
+  padding-left: 12.5vmin;
+}
+
+.section-1 .panel1>h6 {
+  padding-left: 12.5vmin;
+}
+
+@media only screen and (max-width: 1200px) {
   .section-1 .panel1 {
     display: none;
   }
@@ -202,13 +216,37 @@ header .container .col-md-4 button {
   .section-1 .panel {
     position: center;
     background: white;
-    border-radius: 10px;
+    border-radius: 1px;
     text-align: left;
-    padding: 5vmin 5vmin 5vmin 5vmin;
-    box-shadow: 0px 25px 42px rgba(0 0 0) 0.2;
+    padding: auto;
     font-family: var(--Rubik);
-    margin: 15vmin 2vmin 15vmin 2vmin;
-    min-width: 500px
+    margin: 15vmin auto 15vmin auto;
+    min-width: 400px;
+    height: 190px;
+  }
+
+  .section-1 .panel>h3 {
+    font-size: 18px;
+    padding-left: 100px;
+  }
+
+  .section-1 .panel>h6 {
+    font-size: 13px;
+    padding-left: 110px;
+    padding-bottom: 3vmin;
+  }
+
+  .section-1 .panel>p {
+    font-size: 15px;
+  }
+
+  .logo1 {
+    padding-left: 2vmin;
+  }
+
+  .userimg {
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -238,57 +276,10 @@ header .container .col-md-4 button {
 
 .userimg {
   float: left;
-  margin: 1vmin;
-  border-radius: 20vmin;
+  margin: 2vmin;
   padding-right: 5vmin;
   padding-bottom: 4vmin;
 
-}
-
-/** Section2 **/
-.cover {
-  width: 100%;
-  height: 55vmin;
-  background: url('home-banner-bg.png');
-  background-size: 150%;
-  position: relative;
-}
-
-.cover .content {
-  background: rgba(0 0 0 0.7);
-  height: 100%;
-  width: 100%;
-  padding-top: 19vmin;
-
-}
-
-.cover .content>h1 {
-  font-family: var(--Patua);
-  font-size: 6vmin;
-  color: whitesmoke;
-}
-
-.cover .content>p {
-  font-family: var(--Rubik);
-  font-size: 2vmin;
-  color: #e5e5e5;
-}
-
-.numbers .rect {
-  position: relative;
-  z-index: 1;
-  background: white;
-  width: 17rem;
-  height: 12rem;
-  padding-top: 3.5vmin;
-  margin: 1rem;
-  border-radius: 0.5em;
-  box-shadow: 1px 2px 50px 0px rgba(255 0 0 0.349);
-
-}
-
-.numbers {
-  margin-top: -15vmin;
 }
 
 .numbers .rect h1 {
@@ -310,7 +301,7 @@ header .container .col-md-4 button {
 
 .purchase .cards .card {
   width: 35rem;
-  margin: 3vmin;
+  margin: 5vmin;
   font-family: var(--Snigle-font);
 }
 
@@ -325,7 +316,7 @@ header .container .col-md-4 button {
   display: none
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 700px) {
   .section {
     display: flex;
     color: white;
@@ -334,20 +325,6 @@ header .container .col-md-4 button {
     padding-bottom: 10vmin
   }
 }
-
-/**
-.box {
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.815);
-  color: white;
-  font-family: var(--Snigle-font);
-  padding-top: 10vmin;
-  padding-bottom: 10vmin;
-  margin-bottom: 10vmin;
-  margin-top: 10vmin;
-}**/
-
 
 .circle {
   height: 150px;
@@ -360,8 +337,10 @@ header .container .col-md-4 button {
 .btn2 {
   font-weight: bold;
   border-radius: 5px;
-  border-color: white;
-  margin: 5vmin 1vmin 5vmin 1vmin;
+  border: 1px solid white;
+  margin: 5vmin 1vmin 12vmin 1vmin;
+  font-size: 13px;
+
 }
 
 
@@ -455,6 +434,21 @@ footer input::placeholder {
 
 .image {
   margin: 0.5vmin 0.5vmin;
+  width: 8vmin;
+  height: 8vmin;
+}
+
+@media only screen and (max-width: 700px) {
+  .image {
+    margin: 0.5vmin 0vmin 1.5vmin 5vmin;
+    width: 12vmin;
+    height: 12vmin;
+  }
+
+  .mob-heading {
+    font-size: 35px;
+    padding-bottom: 3vmin;
+  }
 }
 
 .fa-regular {
