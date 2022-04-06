@@ -30,19 +30,19 @@ section {
   width: 2vmin;
 }
 
-@media only screen and (max-width: 850px) {
+nav {
+  border-bottom: 1px solid grey;
+  margin-bottom: 0vmin;
+}
+
+@media only screen and (max-width: 1500px) {
   .nav {
     display: none;
-  }
-
-  .nav {
-    border-bottom: 1px solid grey;
-    margin-bottom: 0vmin;
   }
 }
 
 .logos {
-  padding: 1.5vmin 2vmin 1.5vmin 120vmin;
+  padding: 1.5vmin 2vmin 1.5vmin 60%;
   color: blue;
 }
 
@@ -99,7 +99,7 @@ header .nav-item:last-child {
 }
 
 header .nav-item {
-  padding: 0.9em;
+  padding: 0.5em;
 }
 
 header .navebar-brand {
@@ -148,7 +148,7 @@ header .container .col-md-4 button {
     display: inline;
 
     border-radius: 10px;
-    background-color: blue;
+    background-color: #0096FF;
     font-weight: bold;
 
     color: white;
@@ -232,7 +232,7 @@ header .container .col-md-4 button {
 
   .section-1 .panel>h6 {
     font-size: 13px;
-    padding-left: 110px;
+    padding-left: 10px;
     padding-bottom: 3vmin;
   }
 
@@ -276,16 +276,13 @@ header .container .col-md-4 button {
 
 .userimg {
   float: left;
-  margin: 2vmin;
+  margin: 1vmin;
   padding-right: 5vmin;
   padding-bottom: 4vmin;
 
 }
 
-.numbers .rect h1 {
-  font-size: 5rem;
-  color: tomato;
-}
+/** Section2 **/
 
 .purchase>h1 {
   padding-top: 15vmin;
@@ -300,8 +297,8 @@ header .container .col-md-4 button {
 }
 
 .purchase .cards .card {
-  width: 35rem;
-  margin: 5vmin;
+  width: 30rem;
+  margin: 3vmin;
   font-family: var(--Snigle-font);
 }
 
